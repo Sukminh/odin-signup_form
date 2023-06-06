@@ -1,0 +1,189 @@
+
+.backg-container {
+    position: absolute;
+    width: 34%;
+    left:0;
+    top:0;
+
+}
+.backg-image {
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+.backg-body {
+    position: absolute;
+    width: 100%;
+    background: black;
+    opacity: 0.6;
+    color: white;
+    top: 8rem;
+    text-align: center;
+    font-size: 4em;
+    font-family: roboto;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+}
+.backg-icon {
+    display:block;
+    width:100px;
+    margin-left: auto;
+    margin-right: 0;
+}
+.backg-text {
+    margin-right:auto;
+}
+
+.sign-container {
+    position: absolute;
+    width: 66%;
+    height: 105%;
+    right:0;
+    top:0;
+    background-color:lightgrey;
+    display:flex;
+    flex-direction:column;
+}
+
+.sign-paragraph {
+    margin-left: 50px;
+    margin-right: 130px;
+    font-size: 1.5em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main-container {
+    width:100%;
+    height: 55%;
+    background-color: white;
+    border-style: outset;
+}
+
+.main-text {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:1.8em;
+    margin-left: 50px;
+    color:darkblue;
+}
+
+.name {
+    font-family:'Courier New', Courier, monospace;
+    font-size:1em;
+    color:darkblue;
+}
+
+#first-name {
+    margin-left:50px;
+}
+
+#last-name {
+    position:absolute;
+    top:305px;
+    left:500px;
+}
+
+#email-name {
+    position:absolute;
+    top:405px;
+    left:50px;
+}
+
+#phone-name {
+    position:absolute;
+    top:405px;
+    left:500px;
+}
+
+#pass-name {
+    position:absolute;
+    top:505px;
+    left:50px;
+}
+
+#cpass-name {
+    position:absolute;
+    top:505px;
+    left:500px;
+}
+
+#first-enter {
+    position:absolute;
+    top:325px;
+    left:50px;
+}
+
+#last-enter {
+    position:absolute;
+    top:325px;
+    left:500px;
+}
+
+#email-enter {
+    position:absolute;
+    top:425px;
+    left:50px;
+}
+
+#phone-enter {
+    position:absolute;
+    top:425px;
+    left:500px;
+}
+
+#pass-enter {
+    position:absolute;
+    top:525px;
+    left:50px;
+}
+
+#cpass-enter {
+    position:absolute;
+    top:525px;
+    left:500px;
+}
+
+.createAccount {
+    background-color: #596D48; 
+    border: none;
+    border-radius:10px;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    position:absolute;
+    top:625px;
+    left:50px;
+    width:170px;
+    height:50px;
+}
+
+.createAccount:hover {
+    background-color: #596d487b
+}
+
+.login-text {
+    position:absolute;
+    top:625px;
+    left:400px;
+    font-size:1.2em;
+    font-family:'Times New Roman', Times, serif;
+}
+
+a:link {
+    text-decoration: none;
+    color:#596D48;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color:#596d487b;
+}
+
+a:active {
+    text-decoration: none;
+}
